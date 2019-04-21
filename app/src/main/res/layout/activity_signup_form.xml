@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical"
+            android:padding="36dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/user" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColorHint="@color/design_default_color_primary_dark">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Name"
+                    android:inputType="text"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColorHint="@color/design_default_color_primary_dark">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="text"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColorHint="@color/design_default_color_primary_dark">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="text"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColorHint="@color/design_default_color_primary_dark">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Confirm Password"
+                    android:inputType="text"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender :"
+                    android:textColor="@color/design_default_color_primary_dark" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Male"
+                    android:textColor="@color/design_default_color_primary_dark" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Female"
+
+                    android:textColor="@color/design_default_color_primary_dark" />
+            </RadioGroup>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_rounded"
+                android:text="Register"
+                android:textColor="@color/background" />
+
+            <TextView
+                android:id="@+id/lnkRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:onClick="gotoLogin"
+
+                android:text="Already have account ? Login here"
+                android:textColor="#3F51B5"
+
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
